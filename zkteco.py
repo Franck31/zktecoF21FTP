@@ -5,10 +5,10 @@ from ftplib import FTP
 import os
 
 USER = 'root'
-HOST = '10.14.0.41'
+HOST = '127.0.0.1'
 PASSWORD = 'solokey'
 DIRECTORY = 'bad'
-LOCALDIR = '/var/www/biometrico.slyt.local/img/yrigoyen'
+LOCALDIR = '/tmp/'
 
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
